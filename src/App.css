@@ -1,0 +1,25 @@
+body,
+#root {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+text,
+rect {
+  cursor: pointer;
+}
+
+rect.mask {
+  fill: lightblue;
+}
